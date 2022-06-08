@@ -10,8 +10,8 @@
   "author": "kaz",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.0.0",
-    "sass": "^1.26.9"
+    "sass": "^1.26.9",
+    "parcel": "^2.0.0"
   },
   "dependencies": {
     "core-js": "^3.6.5",
