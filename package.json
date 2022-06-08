@@ -5,24 +5,17 @@
   "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "npx -p parcel-bundler parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "kaz",
   "license": "ISC",
   "devDependencies": {
     "sass": "^1.26.9",
-    "parcel": "^2.0.0"
+    "parcel-bundler": "^1.12.5"
   },
   "dependencies": {
-    "url": "0.11.0",
-    "stream-http": "^3.2.0",
-    "@parcel/transformer-sass": "^2.0.1",
     "core-js": "^3.6.5",
     "fractional": "^1.0.0",
     "regenerator-runtime": "^0.13.7"
-  },
-  "@parcel/transformer-js": {
-    "inlineFS": false,
-    "inlineEnvironment": false
   }
 }
