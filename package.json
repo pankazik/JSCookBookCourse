@@ -5,7 +5,7 @@
   "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "build": "npx -p parcel-bundler parcel build index.html --dist-dir ./dist"
   },
   "author": "kaz",
   "license": "ISC",
