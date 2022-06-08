@@ -1,5 +1,5 @@
 import { Exception } from 'sass';
-import icons from 'url:../../img/icons.svg';
+import icons from '../../img/icons.svg';
 import View from "./View.js";
 
 class AddRecipeView extends View{
